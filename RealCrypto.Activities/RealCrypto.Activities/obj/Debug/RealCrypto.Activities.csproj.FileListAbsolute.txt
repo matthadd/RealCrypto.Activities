@@ -1,0 +1,2 @@
+C:\Users\kali\source\repos\RealCrypto.Activities\RealCrypto.Activities\obj\Debug\RealCrypto.Activities.csproj.AssemblyReference.cache
+C:\Users\kali\source\repos\RealCrypto.Activities\RealCrypto.Activities\obj\Debug\RealCrypto.Activities.csproj.CoreCompileInputs.cache
