@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Text;
 using System.Activities;
 using System.ComponentModel;
@@ -29,6 +28,7 @@ namespace RealCrypto.Activities
             string cipherresult = Convert.ToBase64String(ciphertext);
             return cipherresult;
         }
+    }
         public class RealCryptoRSAPKCS1 : CodeActivity
         {
             [Category("Input")] public InArgument<string> Data { get; set; }
@@ -44,6 +44,5 @@ namespace RealCrypto.Activities
                 Cipherresult.Set(context, cipherresult);
             }
         }
-    }
 }
 
